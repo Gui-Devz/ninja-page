@@ -123,6 +123,8 @@ footer .links a{
     background-color: var(--color-kyuub);
 
     cursor: pointer;
+
+    display: grid;
 }
 
 .card__image-container img {
@@ -142,6 +144,7 @@ footer .links a{
 .card__info {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 .card__price {
